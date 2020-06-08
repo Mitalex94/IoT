@@ -1,4 +1,4 @@
--- Существующие поля 
+-- existed fields
 local f_wpan_nwksrc64    = Field.new("wpan.src64")
 local f_wpan_nwksrc16    = Field.new("wpan.src16")
 local f_wpan_nwkdst64    = Field.new("wpan.dst64")
@@ -10,7 +10,7 @@ local f_zbee_nwksrc      = Field.new("zbee_nwk.src")
 local f_Protocols        = Field.new("frame.Protocols")
 local f_framenr          = Field.new("frame.number")
 
--- Инициализация протокола
+-- creating zbee protocol
 local zbee_Protocol = Proto("zbee", "WPAN Lookup")
 
 
